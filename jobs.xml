@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<job-info version="0">
+    <job jobid="1032" package="com.google.android.apps.photos" class="com.google.android.apps.photos.scheduler.LowPriorityBackgroundJobService" sourcePackageName="com.google.android.apps.photos" sourceUserId="0" uid="10073" priority="0" flags="0" lastSuccessfulRunTime="1542819509041" lastFailedRunTime="1544149118663">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075240" delay="1546909075240" />
+        <extras />
+    </job>
+    <job jobid="2018077936" package="com.google.android.apps.tachyon" class="com.google.android.apps.tachyon.jobs.NativeJobSchedulerJobService" sourcePackageName="com.google.android.apps.tachyon" sourceUserId="0" uid="10051" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <one-off delay="1546996213586" backoff-policy="0" initial-backoff="10000" />
+        <extras>
+            <string name="key_fjd_job_tag">duo-register-silent</string>
+        </extras>
+    </job>
+    <job jobid="200" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855478996" lastFailedRunTime="0">
+        <constraints unmetered="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547011635474" delay="1546933557395" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPLOAD_HOTWORD_SETTINGS</string>
+        </extras>
+    </job>
+    <job jobid="148" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547147082339" lastFailedRunTime="0">
+        <constraints unmetered="true" idle="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547296090286" delay="1547218012207" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">SAVE_V2_UPDATE_CACHE</string>
+        </extras>
+    </job>
+    <job jobid="64" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855479120" lastFailedRunTime="0">
+        <constraints charging="true" />
+        <periodic period="172800000" flex="172800000" deadline="1547201079496" delay="1547028279496" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">MDH_WIPEOUT</string>
+        </extras>
+    </job>
+    <job jobid="198" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547147082318" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="43200000" flex="43200000" deadline="1547218568324" delay="1547175368324" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPLOAD_GOOGLE_TAG_MANAGER_EVENTS</string>
+        </extras>
+    </job>
+    <job jobid="186" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546910899115" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547066722348" delay="1546988644269" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPDATE_LANGUAGE_PACKS</string>
+        </extras>
+    </job>
+    <job jobid="146" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547168548387" lastFailedRunTime="0">
+        <constraints unmetered="true" />
+        <periodic period="26681531" flex="26681531" deadline="1547201691998" delay="1547175010467" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">RESTORE_SPEAKER_MODEL</string>
+        </extras>
+    </job>
+    <job jobid="2" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251432" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1547285827856" delay="1547199427856" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">AWARE_TIP_WORKER_PROCESS_TIPS</string>
+        </extras>
+    </job>
+    <job jobid="196" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855479002" lastFailedRunTime="0">
+        <constraints unmetered="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547011635503" delay="1546933557424" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPLOAD_AUDIO_LOGS</string>
+        </extras>
+    </job>
+    <job jobid="60" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855479123" lastFailedRunTime="0">
+        <constraints unmetered="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547011635659" delay="1546933557580" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">MDH_FORCED_SYNC</string>
+        </extras>
+    </job>
+    <job jobid="30" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1544149118384" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075244" delay="1546909075244" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">CUSTOM_TABS_SYNC</string>
+        </extras>
+    </job>
+    <job jobid="52" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547168548414" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="21600000" flex="21600000" deadline="1547196968316" delay="1547175368316" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">LOG_APPLICATIONS_TO_CLEARCUT_AFTER_HASH_CHECK</string>
+        </extras>
+    </job>
+    <job jobid="108" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547147082398" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="43200000" flex="43200000" deadline="1547218568496" delay="1547175368496" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">PERIODIC_PROPERTIES_UPDATE_IN_PHENOTYPE</string>
+        </extras>
+    </job>
+    <job jobid="132" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints connectivity="true" idle="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1546909075246" delay="1546909075246" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">REFRESH_SEARCH_COOKIES</string>
+        </extras>
+    </job>
+    <job jobid="164" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546999123458" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="604800000" flex="604800000" deadline="1548207260131" delay="1547602460131" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">SPEECH_GRAMMAR_COMPILER</string>
+        </extras>
+    </job>
+    <job jobid="124" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1542819508269" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075243" delay="1546909075243" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">RECORD_ACTIVE_LAUNCHER</string>
+        </extras>
+    </job>
+    <job jobid="28" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251553" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1547284587833" delay="1547198187833" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">CONTENT_STORE_DELETE_EXPIRED_CONTENT</string>
+        </extras>
+    </job>
+    <job jobid="180" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855479085" lastFailedRunTime="0">
+        <constraints charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1547028279468" delay="1546941879468" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPDATE_GSERVICES_CONFIG</string>
+        </extras>
+    </job>
+    <job jobid="24" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251466" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1547285827870" delay="1547199427870" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">CLEAR_DATA_DETECTOR</string>
+        </extras>
+    </job>
+    <job jobid="86" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints connectivity="true" idle="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1546909075246" delay="1546909075246" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">NOW_UPDATE_GCM_REGISTRATION</string>
+        </extras>
+    </job>
+    <job jobid="112" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="0" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075243" delay="1546909075243" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">PRIMES_DIR_STATS</string>
+        </extras>
+    </job>
+    <job jobid="170" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251478" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1547284587716" delay="1547198187716" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">THROTTLING_LOGGER_SEND_TO_CLEARCUT</string>
+        </extras>
+    </job>
+    <job jobid="184" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1542885171434" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="21600000" flex="21600000" deadline="1546909075242" delay="1546909075242" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPDATE_IPA_CONTACT_DETAILS</string>
+        </extras>
+    </job>
+    <job jobid="6" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547168548431" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="43200000" flex="43200000" deadline="1547242627886" delay="1547199427886" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">BACKGROUNDRETRY_CACHE_SWEEP</string>
+        </extras>
+    </job>
+    <job jobid="46" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546855478989" lastFailedRunTime="0">
+        <constraints connectivity="true" charging="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547011635464" delay="1546933557385" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">FETCH_OPT_IN_STATUSES</string>
+        </extras>
+    </job>
+    <job jobid="188" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251593" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1547285827997" delay="1547199427997" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">UPDATE_LAUNCHER_SHORTCUT</string>
+        </extras>
+    </job>
+    <job jobid="130" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546910899054" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <periodic period="78078079" flex="78078079" deadline="1547066720864" delay="1546988642785" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">REFRESH_NOW_CONFIGURATION</string>
+        </extras>
+    </job>
+    <job jobid="126" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546908409403" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <periodic period="30859174" flex="30859174" deadline="1546970125242" delay="1546939266068" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">REFRESH_AUTH_TOKENS</string>
+        </extras>
+    </job>
+    <job jobid="152" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1542819508280" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="604800000" flex="604800000" deadline="1546909075245" delay="1546909075245" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">SESSION_PROTO_FILE_CLEANER</string>
+        </extras>
+    </job>
+    <job jobid="204" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1542819508248" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075244" delay="1546909075244" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">VELOUR_BLOBLOBBER_REGISTRATION</string>
+        </extras>
+    </job>
+    <job jobid="168" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251514" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1547284587591" delay="1547198187591" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">TELEMETRY_REQUEST_LOGGING_BY_INTENT</string>
+        </extras>
+    </job>
+    <job jobid="40" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251544" lastFailedRunTime="0">
+        <constraints />
+        <periodic period="86400000" flex="86400000" deadline="1547285829224" delay="1547199429224" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">FETCH_ADVERTISING_INFO</string>
+        </extras>
+    </job>
+    <job jobid="56" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546908409387" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <periodic period="8516751" flex="8516751" deadline="1546925440348" delay="1546916923597" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">LOG_ATTEMPTED_SEARCHES_TO_KANSAS</string>
+        </extras>
+    </job>
+    <job jobid="20" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1544149118368" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075243" delay="1546909075243" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">CHECK_SEARCH_WIDGET_PRESENCE</string>
+        </extras>
+    </job>
+    <job jobid="10" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1547126251454" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="172800000" flex="172800000" deadline="1547457387573" delay="1547284587573" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">BACKUP_SCHEDULER</string>
+        </extras>
+    </job>
+    <job jobid="202" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1544149118375" lastFailedRunTime="0">
+        <constraints idle="true" charging="true" />
+        <periodic period="172800000" flex="172800000" deadline="1546909075243" delay="1546909075243" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">VELOUR_BACKGROUND_MAINTENANCE</string>
+        </extras>
+    </job>
+    <job jobid="54" package="com.google.android.googlequicksearchbox" class="com.google.android.apps.gsa.tasks.BackgroundTasksJobService" sourcePackageName="com.google.android.googlequicksearchbox" sourceUserId="0" uid="10039" priority="0" flags="0" lastSuccessfulRunTime="1546999123386" lastFailedRunTime="0">
+        <constraints idle="true" />
+        <periodic period="604800000" flex="604800000" deadline="1548207260084" delay="1547602460084" />
+        <extras>
+            <int name="apk_version" value="300790682" />
+            <string name="task_name">LOG_APPLICATIONS_TO_CLEARCUT_UNCONDITIONALLY</string>
+        </extras>
+    </job>
+    <job jobid="151530822" package="com.android.vending" class="com.google.android.finsky.instantapps.InstantAppHygieneService" sourcePackageName="com.android.vending" sourceUserId="0" uid="10029" priority="0" flags="0" lastSuccessfulRunTime="1545184653681" lastFailedRunTime="0">
+        <constraints connectivity="true" idle="true" />
+        <periodic period="86400000" flex="86400000" deadline="1546909075245" delay="1546909075245" />
+        <extras />
+    </job>
+    <job jobid="100000" package="com.tplink.fota" class="com.tplink.appupdate.util.JobSchedulerService" sourcePackageName="com.tplink.fota" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1547168548244" lastFailedRunTime="0">
+        <constraints unmetered="true" />
+        <periodic period="3600000" flex="3600000" deadline="1547175748194" delay="1547172148194" />
+        <extras />
+    </job>
+    <job jobid="101" package="com.tplink.bugreport" class="com.tplink.bugreport.service.remote.SyncJobService" sourcePackageName="com.tplink.bugreport" sourceUserId="0" uid="1000" priority="0" flags="0" lastSuccessfulRunTime="1546909103426" lastFailedRunTime="0">
+        <constraints connectivity="true" />
+        <periodic period="7200000" flex="7200000" deadline="1546923500480" delay="1546916300480" backoff-policy="0" initial-backoff="120000" />
+        <extras />
+    </job>
+</job-info>
